@@ -1,4 +1,4 @@
-package excel1;
+package excel1.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
