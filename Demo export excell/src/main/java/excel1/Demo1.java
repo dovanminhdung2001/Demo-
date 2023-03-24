@@ -37,8 +37,6 @@ public class Demo1 {
             // write  header
             writeHeader(sheet, rowIndex);
 
-
-
             rowIndex = 12;
             // Write table header
             writeTable(sheet, rowIndex);
@@ -62,7 +60,7 @@ public class Demo1 {
 
             // Create file excel
             createOutputFile(workbook, excelPath);
-            System.out.println("Done!!!");
+            System.out.println("Export Done!!!");
         } catch (Exception e) {
             e.printStackTrace();
         }
