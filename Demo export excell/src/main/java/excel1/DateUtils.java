@@ -9,7 +9,7 @@ public class DateUtils {
     public static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     public static SimpleDateFormat stf = new SimpleDateFormat("HH:mm:ss");
     public static SimpleDateFormat sdtf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-    public static SimpleDateFormat dateUpFile = new SimpleDateFormat("ddMMyyyyhhmmss");
+    public static SimpleDateFormat dateUpFile = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
 
     public static Date now() {
         return new Date();
