@@ -5,8 +5,9 @@ public class Cal {
     static void findNum(List<Integer> Arr) {
         int max = Arr.get(0);
         for (int i = 1; i < Arr.size(); i++) {
-            if (max < Arr.get(i)) {
-                max = Arr.get(i);
+            int val = Arr.get(i);
+            if (max < val) {
+                max = val;
             }
         }
         System.out.println("max = " + max);
