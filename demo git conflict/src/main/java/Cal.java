@@ -3,14 +3,14 @@ import java.util.List;
 
 public class Cal {
     static void findNum(List<Integer> Arr) {
-        int max = Arr.get(0);
+        int arr = Arr.get(0);
         for (int i = 0; i < Arr.size(); i++) {
-            int val = Arr.get(i);
-            if (max < val) {
-                max = val;
+//            int val = Arr.get(i);
+            if (arr < Arr.get(i)) {
+                arr = Arr.get(i);
             }
         }
-        System.out.println("max = " + max);
+        System.out.println("max = " + arr);
     }
     public static void main(String[] args) {
         List<Integer> Arr = new ArrayList<>(List.of(new Integer[]{1, 2, 1, 0, -1, 4}));
